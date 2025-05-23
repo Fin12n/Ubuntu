@@ -1,5 +1,5 @@
 echo "=== Starting Install PufferPanel (by Finnn) ==="
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 echo "=== Installing UFW ==="
 sudo apt install ufw
 sudo ufw enable
