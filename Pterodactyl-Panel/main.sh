@@ -22,7 +22,7 @@ while true; do
             ;;
         2) 
             echo "▶ Xóa sạch sẽ Panel..."
-            bash <(curl -s URL_XOA_PANEL) 
+            bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/cleaner.sh) 
             ;;
         3) 
             echo "▶ Fix lỗi nhanh..."
