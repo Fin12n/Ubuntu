@@ -26,7 +26,7 @@ while true; do
             ;;
         3) 
             echo "▶ Fix lỗi nhanh..."
-            bash <(curl -s URL_FIX_LOI) 
+            bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/fast-fix.sh) 
             ;;
         4) 
             echo "▶ Detect lỗi nhanh..."
