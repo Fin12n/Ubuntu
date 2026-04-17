@@ -24,6 +24,7 @@ while true; do
         1) 
             echo "▶ Cài đặt Blueprint"
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/install-blueprint.sh)
+            ;;
         2) 
             echo "▶ Xóa sạch sẽ Panel..."
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/cleaner.sh) 
