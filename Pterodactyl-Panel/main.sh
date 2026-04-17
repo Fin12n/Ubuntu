@@ -6,7 +6,8 @@ while true; do
     echo "=================================="
     echo "   Menu | Pterodactyl Panel By Fin12n"
     echo "=================================="
-    echo "1) Cài đặt Panel"
+    echo "0) Cài đặt Panel"
+    echo "1) Cài đặt Blueprint"
     echo "2) Xóa sạch sẽ Panel"
     echo "3) Fix lỗi nhanh"
     echo "4) Detect lỗi nhanh"
@@ -22,7 +23,7 @@ while true; do
             ;;
         1) 
             echo "▶ Cài đặt Blueprint"
-            bash <(curl -s URL)
+            bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/install-blueprint.sh)
         2) 
             echo "▶ Xóa sạch sẽ Panel..."
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/cleaner.sh) 
@@ -33,7 +34,7 @@ while true; do
             ;;
         4) 
             echo "▶ Detect lỗi nhanh..."
-            bash <(curl -s URL_DETECT) 
+            bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/quickerrorcheck.sh) 
             ;;
         5) 
             echo "▶ Test panel/wings..."
