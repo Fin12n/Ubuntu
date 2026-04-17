@@ -16,10 +16,13 @@ while true; do
     read -p "Chọn số (1-6): " choice
 
     case $choice in
-        1) 
-            echo "▶ Đang cài đặt Panel..."
+        0) 
+            echo "▶ Cài đặt Panel..."
             bash <(curl -s https://pterodactyl-installer.se) 
             ;;
+        1) 
+            echo "▶ Cài đặt Blueprint"
+            bash <(curl -s URL)
         2) 
             echo "▶ Xóa sạch sẽ Panel..."
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/cleaner.sh) 
