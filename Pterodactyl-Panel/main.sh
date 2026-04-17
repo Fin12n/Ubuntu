@@ -14,7 +14,7 @@ while true; do
     echo "5) Test panel/wings"
     echo "6) Thoát"
     echo "=================================="
-    read -p "Chọn số (1-6): " choice
+    read -p "Chọn số (0-6): " choice
 
     case $choice in
         0) 
@@ -25,7 +25,7 @@ while true; do
             echo "▶ Cài đặt Blueprint"
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/install-blueprint.sh)
             ;;
-        2) 
+        2)
             echo "▶ Xóa sạch sẽ Panel..."
             bash <(curl -s https://raw.githubusercontent.com/Fin12n/Ubuntu/refs/heads/main/Pterodactyl-Panel/cleaner.sh) 
             ;;
